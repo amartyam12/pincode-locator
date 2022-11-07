@@ -1,0 +1,73 @@
+.serial{
+    background-color: green;
+}
+.block{
+    background-color: aquamarine;
+}
+.branch{
+    background-color: darkcyan;
+}
+.circle{
+    background-color: brown;
+}
+.country{
+    background-color: crimson;
+}
+.distict{
+    background-color: rgb(161, 161, 7);
+}
+.division{
+    background-color: darkmagenta;
+}
+.name{
+    background-color: darkslateblue;
+}
+.region{
+    background-color: deeppink;
+}
+.state{
+    background-color: indigo;
+}
+/*  */
+/*  */
+
+.serial-tab{
+    background-color: rgb(66, 250, 66);
+}
+.block-tab{
+    background-color: rgb(182, 250, 227);
+}
+.branch-tab{
+    background-color: rgb(60, 241, 241);
+}
+.circle-tab{
+    background-color: rgb(255, 116, 116);
+}
+.country-tab{
+    background-color: rgb(255, 145, 167);
+}
+.distict-tab{
+    background-color: rgb(255, 255, 146);
+}
+.division-tab{
+    background-color: rgb(255, 118, 255);
+}
+.name-tab{
+    background-color: rgb(159, 144, 255);
+}
+.region-tab{
+    background-color: rgb(248, 153, 204);
+}
+.state-tab{
+    background-color: rgb(125, 97, 145);
+}
+/*  */
+/*  */
+/*  */
+.box{
+   display: inline-block;
+
+}
+td{
+    border-radius: 5px;
+}
