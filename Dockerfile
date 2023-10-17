@@ -1,11 +1,12 @@
 # Use an official Node.js runtime as the base image
-FROM node:14
+FROM node:20
 
 # Copy package.json and package-lock.json to the container
-COPY package*.json ./
+# COPY package-lock.json ./
 
 # Install application dependencies
-RUN npm install
+RUN npm install -g npm@latest
+
 # RUN  npx update-browserslist-db@latest
 
 # Copy the rest of your application's source code to the container
